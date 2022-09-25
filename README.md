@@ -1,2 +1,9 @@
-Este es una sencilla aplicacion Java realizada con Spring-Boot, por el momento para ejecutarla hay que compilar el archivo "CommandArgs.java",
-te pedirá que introduzcas una url en la terminal y si la url es correcta te lo indicará.
+# CSV READER AND LOADER TO MYSQL
+
+This Java app provides a simple way to read a .csv file and persist it on MySQL
+
+## Milestones
+
+- [x] Ask for URL where the .csv is located
+- [ ] Read .csv data
+- [ ] Persist data on MySQL
