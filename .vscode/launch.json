@@ -6,17 +6,45 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch Main",
+            "name": "Launch PruebaApplication",
             "request": "launch",
-            "mainClass": "com.pruebamaven.Main",
+            "mainClass": "com.CSVloader.PruebaApplication",
+            "projectName": "CSVloader"
+        },
+        {
+            "type": "java",
+            "name": "Launch CSVRead",
+            "request": "launch",
+            "mainClass": "com.CSVloader.CSVRead",
+            "projectName": "CSVloader"
+        },
+        {
+            "type": "java",
+            "name": "Launch CSVRead",
+            "request": "launch",
+            "mainClass": "com.CSVloader.CSVRead",
+            "projectName": "main"
+        },
+        {
+            "type": "java",
+            "name": "Launch PruebaApplication",
+            "request": "launch",
+            "mainClass": "com.CSVloader.PruebaApplication",
+            "projectName": "main"
+        },
+        {
+            "type": "java",
+            "name": "Launch PruebaApplication",
+            "request": "launch",
+            "mainClass": "com.CSVloader.PruebaApplication",
             "projectName": "prueba"
         },
         {
             "type": "java",
-            "name": "Launch with Arguments Prompt",
+            "name": "Launch main",
             "request": "launch",
-            "mainClass": "",
-            "args": "${command:SpecifyProgramArgs}"
+            "mainClass": "com.CSVloader.main",
+            "projectName": "prueba"
         },
         {
             "type": "java",
@@ -26,17 +54,47 @@
         },
         {
             "type": "java",
-            "name": "Launch App",
+            "name": "Launch CommandArgs",
             "request": "launch",
-            "mainClass": "com.pruebamaven.App",
+            "mainClass": "com.CSVloader.main",
+            "projectName": "main"
+        },
+        {
+            "type": "java",
+            "name": "Launch PruebaApplication",
+            "request": "launch",
+            "mainClass": "com.CSVloader.PruebaApplication",
             "projectName": "prueba"
         },
         {
             "type": "java",
-            "name": "Launch CommandArgs",
+            "name": "Spring Boot-PruebaApplication<prueba>",
             "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.CSVloader.PruebaApplication",
+            "projectName": "prueba",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PruebaApplication<prueba>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.pruebamaven.PruebaApplication",
+            "projectName": "prueba",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CommandArgs<prueba>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
             "mainClass": "com.pruebamaven.CommandArgs",
-            "projectName": "prueba"
+            "projectName": "prueba",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
