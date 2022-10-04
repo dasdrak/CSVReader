@@ -34,8 +34,8 @@ public class Utils {
 
             while (rs.next())
                 {
-                String patata = rs.getString(4);
-                rslist.add(patata);
+                String dniSQL = rs.getString(4);
+                rslist.add(dniSQL);
                     }
     
         return rslist;
